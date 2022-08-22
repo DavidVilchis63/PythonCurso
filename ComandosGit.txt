@@ -19,5 +19,5 @@ Ver ramas git branch
 Cambuar de rama git checkout (Nombre de rama)
 
 Subir repositorios a Github
-# git remote add origin https://github.com/DavidVilchis63/PythonCurso.git
-# git push -u origin main
+git remote add origin https://github.com/DavidVilchis63/PythonCurso.git
+git push -u origin main
