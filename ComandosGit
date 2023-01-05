@@ -1,0 +1,23 @@
+Nuevo proyecto git init
+
+Estatus git status
+
+Agregar  git add
+
+Crear commit git commit
+
+Desacer un cambio git checkout --(Nombre de archivo)
+
+Ver cambios git diff (Nombre de archivo)
+
+Ver commits git log
+
+Ignorar archivos Creando una carpeta .gitignore y escribir los nombres que se quieren Ignorar
+
+Crear ramas git branch (Nombre)
+Ver ramas git branch
+Cambuar de rama git checkout (Nombre de rama)
+
+Subir repositorios a Github
+# git remote add origin https://github.com/DavidVilchis63/PythonCurso.git
+# git push -u origin main
