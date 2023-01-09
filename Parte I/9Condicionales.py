@@ -93,13 +93,14 @@ else:
 palabra1 = input("Ingrese una palabra: ")
 palabra2 = input("Ingrese otra palabra: ")
 
-# Obtener las tres ultimas letras de las palabras ingresadas
+if len(palabra1) < 3 or len(palabra2) < 3: #len sirve para medir la cantidad de caracteres en una cadena 
+    print("Las palabras no riman, tienen menos de 3 caracteres")
 
-ultimasPalabra1 = palabra1[-3:]
-ultimasPalabra2 = palabra2[-3:]
-
-if ultimasPalabra1 == ultimasPalabra2:
+elif palabra1[-3:] == palabra2[-3:]: #negativo empiezo en 1, positivo en 0
     print("Las palabras riman, las ultimas tres letras son iguales")
+
+elif palabra1[-2:] == palabra2[-2:]:
+    print("Las palabras riman un poco, las ultimas dos letras son iguales")
 
 else:
     print("Las palabras no riman")
