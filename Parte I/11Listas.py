@@ -90,18 +90,17 @@ print(lista7)
 """
 
 #Ejercicio 1
-"""
+
 listaEjercicio = [20, 50, "Curso", "Python", 3.14]
 
-print(listaEjercicio)
+print("Valores iniciales de la lista: ", listaEjercicio)
 dato1 = input("Ingrese dato 1 a sustiruir: ")
 dato2 = input("Ingrese dato 2 a sustiruir: ")
 
 listaEjercicio[0] = dato1
 listaEjercicio[1] = dato2
 
-print(listaEjercicio)
-"""
+print("Valores finales de la lista", listaEjercicio)
 
 #Ejercio 2
 
