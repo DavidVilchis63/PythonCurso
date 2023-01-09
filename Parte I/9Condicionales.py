@@ -90,3 +90,44 @@ else:
 
 #Ejercicio 3
 
+palabra1 = input("Ingrese una palabra: ")
+palabra2 = input("Ingrese otra palabra: ")
+
+# Obtener las tres ultimas letras de las palabras ingresadas
+
+ultimasPalabra1 = palabra1[-3:]
+ultimasPalabra2 = palabra2[-3:]
+
+if ultimasPalabra1 == ultimasPalabra2:
+    print("Las palabras riman, las ultimas tres letras son iguales")
+
+else:
+    print("Las palabras no riman")
+
+
+
+#Ejercicio 4
+"""
+A = "Partido Rojo"
+B = "Partido Verde"
+C = "Partido Azul"
+
+voto = input("Vote por el candidato que desee: ")
+
+if voto.upper() == "A":
+
+    print("Usted a votado por el ", A)
+
+elif voto.upper() == "B":
+
+    print("Usted a votado por el ", B)
+
+elif voto.upper() == "C":
+
+    print("Usted a votado por el ", C)
+
+else:
+
+    print("Opcion erronea, los candidatos son A, B, o C")
+
+"""
