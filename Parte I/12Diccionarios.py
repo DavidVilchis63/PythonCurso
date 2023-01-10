@@ -52,7 +52,7 @@ print(diccionario2)
 """
 
 #Ejercicio 1
-
+"""
 diccionarioPaises = {"Guatemala": "Ciudad de Guatemala", "El Salvador": "San Salvador", "Honduras": "Tegucigalpa","Nicaragua": "Managua", "Costa Rica": "San Jose", "Panama": "Panama", "Argentina": "Buenos Aires", "Colombia": "Bogota", "Venezuela": "Caracas", "España": "Madrid"}
 solicitud = input("Escriba el nombre de un pais: ").strip().upper()
 diccionarioPaisesMayus = {k.upper(): v for k, v in diccionarioPaises.items()}
@@ -61,4 +61,25 @@ if solicitud in diccionarioPaisesMayus:
     print(diccionarioPaisesMayus[solicitud])
 else:
     print("El pais no se encuentra en la lista")
+
+"""
+
+#Ejercicio 2
+
+diccionarioJugadores = {
+    1 : "Casillas", 15 : "Ramos",
+    3 : "Pique", 5 : "Puyol",
+    11 : "Capdevila", 14 : "Xabi Alonso",
+    16 : "Busquets", 8 : "Xavi Hernandez",
+    18 : "Pedrito", 6 : "Iniesta",
+    7 : "Villa"
+}
+
+solicitud = int(input("Ingrese un numero para obtener el nombre de jugador: "))
+
+if solicitud in diccionarioJugadores:
+    print("El jugador es: ", diccionarioJugadores[solicitud])
+
+else:
+    print("El jugador no se encuentra en lista")
 
