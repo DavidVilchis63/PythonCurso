@@ -54,12 +54,11 @@ print(diccionario2)
 #Ejercicio 1
 
 diccionarioPaises = {"Guatemala": "Ciudad de Guatemala", "El Salvador": "San Salvador", "Honduras": "Tegucigalpa","Nicaragua": "Managua", "Costa Rica": "San Jose", "Panama": "Panama", "Argentina": "Buenos Aires", "Colombia": "Bogota", "Venezuela": "Caracas", "España": "Madrid"}
-solicitud = input("Escriba el nombre de un pais: ")
+solicitud = input("Escriba el nombre de un pais: ").strip().upper()
+diccionarioPaisesMayus = {k.upper(): v for k, v in diccionarioPaises.items()}
 
-hacerMayuscula = solicitud.capitalize() in diccionarioPaises
-
-if hacerMayuscula == True:
-    print(diccionarioPaises[solicitud.capitalize()])
+if solicitud in diccionarioPaisesMayus:
+    print(diccionarioPaisesMayus[solicitud])
 else:
     print("El pais no se encuentra en la lista")
 
