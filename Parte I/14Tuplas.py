@@ -23,13 +23,21 @@ tuplaMeses = ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "a
 valor = int(input("ingrse un numero para conocer el mes: "))
 valorNuevo = valor - 1
 
-print(tuplaMeses[valorNuevo])
+if valorNuevo < 12:
+    print(tuplaMeses[valorNuevo])
+
+else:
+    print("Ingrese un valor menor a 12")
 
 #Ejercicio 2
 
 tuplaAlfabeto = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z')
 
-valor = int(input("ingrse un numero para conocer la letra: "))
-valorNuevo = valor - 1
+valorLetra = int(input("ingrse un numero para conocer la letra: "))
+valorNuevoLetra = valorLetra - 1
 
-print(tuplaAlfabeto[valorNuevo])
+if valorNuevoLetra < 26:
+    print(tuplaAlfabeto[valorNuevoLetra])
+
+else:
+    print("Ingrese un valor menor  a 27")
