@@ -34,11 +34,24 @@ for j in range(1,11):
 for i in range(1, 11):
     print(i)
 
-num1 = int(input("Selecciona un numero de la lista: "))
-num2 = int(input("Selecciona un numero de la lista mayor al anterior: "))
+num1 = int(input("Selecciona un numero: "))
+num2 = int(input("Selecciona un segundo numero: "))
 
-print("El rango de tus  numeros es:")
-for i in range(num1, num2+1):
-    print(i)
+if num1 < num2:
+    print("El rango de tus  numeros es:")
+    for i in range(num1, num2+1):
+        print(i)
+
+else:
+    for i in range(num2, num1+1):
+        print(i)
 
 #Ejercicio 2
+"""
+num3 = int(input("Selecciona un numero: "))
+num4 = int(input("Selecciona un segundo numero: "))
+
+for j in range(num3, num4):
+    if j == (2,4,6,8,10):
+        continue
+    print(j)"""
