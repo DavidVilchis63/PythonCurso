@@ -30,7 +30,7 @@ for j in range(1,11):
 """
 
 #Ejercicio 1
-
+"""
 for i in range(1, 11):
     print(i)
 
@@ -51,7 +51,7 @@ else:
 num3 = int(input("Selecciona un numero: "))
 num4 = int(input("Selecciona un segundo numero: "))
 
-for j in range(num3, num4):
-    if j == (2,4,6,8,10):
+for j in range(num3, num4+1):
+    if j % 2 ==0:
         continue
-    print(j)"""
+    print(j)
