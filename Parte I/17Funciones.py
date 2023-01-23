@@ -26,7 +26,7 @@ def tabla7():
 tabla7() """
 
 #Ejercicio 1
-
+""" 
 listaIncial = []
 
 def agregarElementos():
@@ -53,4 +53,18 @@ def separarNumeros():
 
 separarNumeros()
 print("La lista de numeros pares es: ", listaPares)
-print("La lista de numeros impares es: ",listaImpares)
+print("La lista de numeros impares es: ",listaImpares) """
+
+#Ejercio 2
+
+n = int(input("Escriba un numero: "))
+
+def factorial(n):
+    resultado = 1
+    while n > 1:
+        resultado = resultado * n
+        n = n - 1
+    return resultado
+
+
+print(factorial(n))
