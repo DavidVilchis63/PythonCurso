@@ -21,7 +21,7 @@ print(random.randint(0,100)) #Toma un numero al azar del rango indicado
 """
 
 #Ejercicio 1
-
+"""
 def pedirValores():
     num1 = float(input("Ingrese numero 1: "))
     num2 = float(input("Ingrese numero 2: "))
@@ -36,3 +36,22 @@ def pedirValores():
         return 0
 
 print(pedirValores())
+"""
+
+#Ejercicio 2
+
+def calculoTotal():
+    cantidad = float(input("Ingrese el monto que esta pagando: "))
+    iva = int(input("Ingrese el valro del IVA: "))
+
+    if iva != 0:
+        if iva > 0:
+            montoTotal = (cantidad * (iva / 100)) + cantidad
+            return montoTotal
+        else:
+            print("Valor no aceptado para el IVA")
+    else:
+        montoTotal = (cantidad *0.21) + cantidad
+        return montoTotal
+
+print("El total a pagar es: ", calculoTotal())
