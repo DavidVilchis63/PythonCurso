@@ -35,7 +35,7 @@ def agregarElementos():
 
 i = 0
 
-while i < 10:
+while i < 5:
     agregarElementos()
     i = i + 1   
 
@@ -45,6 +45,7 @@ listaPares = []
 listaImpares = []
 
 def separarNumeros():
+    listaIncial.sort()
     for numero in listaIncial:
         if numero % 2 == 0:
             listaPares.append(numero)
@@ -53,18 +54,23 @@ def separarNumeros():
 
 separarNumeros()
 print("La lista de numeros pares es: ", listaPares)
-print("La lista de numeros impares es: ",listaImpares) """
+print("La lista de numeros impares es: ",listaImpares)  """
+
 
 #Ejercio 2
 
 n = int(input("Escriba un numero: "))
 
 def factorial(n):
-    resultado = 1
-    while n > 1:
-        resultado = resultado * n
-        n = n - 1
-    return resultado
+
+    if n > 0:
+        resultado = 1
+        while n > 1:
+            resultado = resultado * n
+            n = n - 1
+        return resultado
+    else:
+        print("Error numero negativo")
 
 
 print(factorial(n))
