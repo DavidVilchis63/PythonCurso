@@ -1,6 +1,6 @@
 #Encapsulamiento
 #Es un atributo que no se puede acceder por fuera, solo desde la misma clase
-
+""" 
 class A():
     def __init__(self):
         self.contador = 0
@@ -34,3 +34,22 @@ b.incrementar()
 print(b.cuenta())
 #print(b.__contador) 
 #Intenta acceder por fuera por eso manda error
+ """
+
+#Profundizar en encapsulamiento
+
+class A():
+    def __init__(self):
+        self._contador = 0
+        self._cuenta = 0
+
+    def incrementar(self):
+        self._contador += 1
+    
+    def cuenta(self):
+        return self._contador
+
+a = A()
+# print(a.cuenta) #Si las variables tienen _ no deben ser llamadas las variables de esta manera
+# a.cuenta = 20
+# print(a.cuenta)
