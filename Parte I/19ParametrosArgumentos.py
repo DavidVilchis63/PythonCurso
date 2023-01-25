@@ -22,3 +22,10 @@ print(valores())
 resta = var1 - var2
 print(resta)
 
+#Valores indefinidos
+
+def argumento(*num): #Al usar * los elementos ingresados se almacenan en una tupla
+    return type(num)
+
+print(argumento(10,9,0))
+
