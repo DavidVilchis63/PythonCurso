@@ -1,4 +1,4 @@
-#Metodo
+#Metodos especiales
 
 class FabricaTelefonos(): #Clase
     def __init__(self, marca): #Metodo construtor
