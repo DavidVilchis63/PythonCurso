@@ -37,9 +37,8 @@ estudiante1 = Estudiante("David", 5)
 estudiante1.imprimir()
 estudiante1.resultados()
 
-estudiante1.nombre = "Maggie"
-estudiante1.nota = 8
-#print(estudiante1.nombre)
-#print(estudiante1.nota)
-estudiante1.imprimir()
-estudiante1.resultados()
+estudiante2 = Estudiante("Maggie", 8)
+#print(estudiante2.nombre)
+#print(estudiante2.nota)
+estudiante2.imprimir()
+estudiante2.resultados()
