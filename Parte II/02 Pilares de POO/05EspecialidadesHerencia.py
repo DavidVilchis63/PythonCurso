@@ -6,7 +6,7 @@ class Animales():
 
 class Perro(Animales):
     def __init__(self, nombre, sonido):
-        super().__init__(nombre)
+        super().__init__(nombre) #Hereda init demanera correcta
         self.sonido = sonido
 
 perro = Perro("Manchas", "Ladrido")
