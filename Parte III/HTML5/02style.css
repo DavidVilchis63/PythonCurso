@@ -68,3 +68,11 @@ aside{
     margin: 5px;
     border-radius: 10px;
 }
+
+footer{
+    background-color: gray;
+    width: 770px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
