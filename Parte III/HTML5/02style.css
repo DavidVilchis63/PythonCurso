@@ -16,3 +16,13 @@ main{
     width: 780px;
     height: 400px;
 }
+
+nav{
+    background-color: gray;
+    width: 150px;
+    height: 330px;
+    /* Lo ubica en la parte izquierda */
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
