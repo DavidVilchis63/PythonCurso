@@ -1,0 +1,12 @@
+
+header{
+    background-color: gray;
+    /* Borde */
+    border: 5px chartreuse;
+    /* Ancho */
+    width: 770px; 
+    /* Alto */
+    height: 200px;
+    margin: 5px;
+    border-radius: 10px;
+}
