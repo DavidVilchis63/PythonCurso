@@ -1,3 +1,48 @@
-h1{
-    background-color: green;
+/* CASCADA */
+
+/* h1{
+    color: green;
+}
+
+p{
+    color: blue;
+}
+
+main{
+    background-color: blanchedalmond;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+/* Siempre tomara la ultima modificacion dada a un atributo */
+/* 
+p{
+    color: black;
+} */
+
+/* HERENCIA */
+
+/* p{
+    color: tomato;
+} 
+
+/* Con inherit se hereda los atributos de la etiqueta mas proxima */
+/* a{ 
+    color: inherit;
+} */
+
+/* ESPECIFIDAD */
+
+#identificador{ 
+    color: lightseagreen;
+}
+
+.clase{
+    color: black;
+}
+
+p{
+    color: rebeccapurple !important;
 }
