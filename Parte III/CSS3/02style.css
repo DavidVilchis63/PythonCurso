@@ -54,7 +54,7 @@ p{
 
 *{
     font-size: 50px;
-    color: blueviolet;
+    color: black;
 }
 
 /* Selectores de etiqueta */
@@ -71,4 +71,24 @@ a{
 
 p{
     text-align: center;
+}
+
+/* Selectores de clase */
+
+p.p1{
+    background-color: black;
+    color: azure;
+}
+
+.p2{
+    background-color: darkgray;
+    color: azure;
+    font-size: 50px;
+}
+
+/* Selectores de ID */
+/* Los ID a diferencia de las clases, solo se pueden usar una vez */
+#i1{
+    color: dimgrey;
+    background-color: aqua;
 }
