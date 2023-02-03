@@ -1,0 +1,16 @@
+
+/* Este selector indica que todos los a hijos de h1 recibiran los estilos seleccioados */
+
+h1 > a{
+    color: coral;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkcyan;
+}
+
+p > a{
+    color: khaki;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkcyan;
+}
