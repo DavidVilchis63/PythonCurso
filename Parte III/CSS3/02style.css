@@ -35,7 +35,7 @@ p{
 
 /* ESPECIFIDAD */
 
-#identificador{ 
+/* #identificador{ 
     color: lightseagreen;
 }
 
@@ -44,5 +44,30 @@ p{
 }
 
 p{
-    color: rebeccapurple !important;
+    color: rebeccapurple !important; 
+}*/
+
+
+/* SELECTORES */
+
+/* Selector universal */
+
+*{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+/* Selectores de etiqueta */
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+}
+
+a{
+    background-color: bisque;
+}
+
+p{
+    text-align: center;
 }
