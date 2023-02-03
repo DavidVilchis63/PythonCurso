@@ -92,3 +92,9 @@ p.p1{
     color: dimgrey;
     background-color: aqua;
 }
+
+/* Selectores descendente */
+
+p a{
+    background-color: green;
+}
