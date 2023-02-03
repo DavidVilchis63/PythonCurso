@@ -1,6 +1,6 @@
 
 /* Este selector indica que todos los a hijos de h1 recibiran los estilos seleccioados */
-
+/*
 h1 > a{
     color: coral;
     font-size: 50px;
@@ -13,4 +13,13 @@ p > a{
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: darkcyan;
+}
+*/
+
+/* Selector adyecente */
+/* Solo le aplica el estilo al elemento mas proximo (h3) de h2 */
+h2 + h3 {
+    color: fuchsia;
+    font-weight: bold;
+    
 }
